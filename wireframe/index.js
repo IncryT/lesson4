@@ -20,7 +20,7 @@ function formatDate(date) {
   ];
   let day = days[dayIndex];
 
-  return day + hour + ":" + minutes;
+  return day + hours + ":" + minutes;
 }
 
 function displayWeatherCondition(response) {
