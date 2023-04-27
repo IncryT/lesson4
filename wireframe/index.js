@@ -22,7 +22,7 @@ function formatDate(date) {
 
   return day + hours + ":" + minutes;
 }
-
+/*
 function displayWeatherCondition(response) {
   document.querySelector("#result").innerHTML = response.data.name;
   document.querySelector("#temperature").innerHTML = Math.round(
@@ -65,3 +65,4 @@ let currentLocationButton = document.querySelector("#current");
 currentLocationButton.addEventListener("click", getCurrentLocation);
 
 searchCity("New York");
+*/
