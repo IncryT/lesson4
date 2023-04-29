@@ -43,14 +43,6 @@ function celciusChange() {
 let celciusTemp = document.querySelector(".celsius");
 celciusTemp.addEventListener("click", celciusChange);
 
-//function fahrenheitChange() {
-//let temp2 = document.querySelector("#temperature-change");
-//emp2.innerHTML = "71.6";
-//}
-
-//let fahrenheitTemp = document.querySelector("#faren");
-//fahrenheitTemp.addEventListener("click", fahrenheitChange);
-
 function handleSearch(event) {
   event.preventDefault();
   let searchInput = document.querySelector("#cityName");
