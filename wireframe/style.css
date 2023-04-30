@@ -12,13 +12,14 @@ h1 {
   font-family: "Dancing Script", cursive;
   font-family: "Pacifico", cursive;
   position: relative;
+  font-size: 36px;
   left: 10px;
+  top: 10px;
 }
 
-h1,
 h2,
 h3 {
-  font-size: 24spx;
+  font-size: 26px;
   position: relative;
   left: 60px;
   top: 20px;
